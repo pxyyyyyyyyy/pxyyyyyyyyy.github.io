@@ -14,7 +14,7 @@
 <meta property="og:description" content="使用github搭建基于hexo框架的个人博客网站注册github账号，创建仓库下载hexo框架：    hexo框架是基于nodejs(js运行时环境)实现的，因此需要先安装nodejs在nodejs官网下载nodejs安装包（msi），选择长期支持版本（比较稳定）     配置npm全局安装路径：npm是nodejs的包管理器，我们需要使用它下载hexo框架相关包，配置好统一安装路径便于管理。">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-09-16T08:43:40.225Z">
-<meta property="article:modified_time" content="2024-10-23T07:29:46.742Z">
+<meta property="article:modified_time" content="2024-10-23T09:21:55.766Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
   
@@ -115,21 +115,10 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
 <p>6访问<br>用户名.github.io
  </p>
-<h3 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;我的第一篇博客&quot;</span></span><br><span class="line">在<span class="built_in">source</span>的post目录下找到对应md文件，编辑，重新部署即可</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<p>以上文档基于<br>在Github搭建个人博客-详细步骤整理_github博客-CSDN博客<br>2024年GitHub Pages + Hexo搭建个人博客网站，史上最全教程_hexo博客_github hexo-CSDN博客<br>Hexo+Github博客搭建教程_hexo github-CSDN博客</p>
+<h3 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new post <span class="string">&quot;我的第一篇博客&quot;</span></span><br></pre></td></tr></table></figure>
+<p>在source的post目录下找到对应md文件，编辑，重新部署即可</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>hexo博客框架基于Node.js技术，该技术使用npm作为包管理器<br>而要部署项目到github上，需要使用git来上传部署<br>git与github通信，则需要配置git以github相关信息(用户名，邮箱)，同时在本机生成密钥，将公钥放在github的sshkey上<br>搞好项目后，使用hexo部署git的工具将项目部署到github上</p>
+<p>以上文档基于<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/lxfhahaha/article/details/85964001?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-85964001-blog-137553207.235%5Ev43%5Epc_blog_bottom_relevance_base4&spm=1001.2101.3001.4242.2&utm_relevant_index=4">https://blog.csdn.net/lxfhahaha/article/details/85964001?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-1-85964001-blog-137553207.235^v43^pc_blog_bottom_relevance_base4&amp;spm=1001.2101.3001.4242.2&amp;utm_relevant_index=4</a></p>
 <h2 id="date-2024-09-16-16-43-40tags"><a href="#date-2024-09-16-16-43-40tags" class="headerlink" title="date: 2024-09-16 16:43:40tags:"></a>date: 2024-09-16 16:43:40<br>tags:</h2>
       
     </div>
